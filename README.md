@@ -1,6 +1,6 @@
 # Github profile-search
-#### This is an application which displays the user profile of the github-user name entered 16 July,2019
-#### By **Brian Mumo Paul**
+This is an application which displays the user profile of the github-user name entered 16 July,2019
+#### By **Jenniffer**
 ## Description
 This is an application which allows a user to search for a github profilre and displays the searched repositories, image and links to their repositories.
 ## Behaviour Driven Development
@@ -25,7 +25,8 @@ The user can also click on a link to view the profile oh github<br>
 
 ## Support and contact details
 In case of any questions or any interest, please contact me using any of the following:
-* Email: brayomumo5@gmail.com
+* Email: jenn7nm@gmail.com
 ### License
-MIT Lecense Copyright (c) {2019} **Brian Mumo Paul**
+MIT Lecense Copyright (c) {2019} 
+
   
