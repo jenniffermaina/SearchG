@@ -6,7 +6,7 @@ This is an application which allows a user to search for a github profilre and d
 ## Behaviour Driven Development
 When the user enters the user name in the search bar, the program displays the searched github information. In the repository's part there is a link which when clicked it opens the repository on github.<br>
 The user can also click on a link to view the profile oh github<br>
-![screenshot](./src/assets/screenshot.png)
+
 
 
 ## Setup/Installation Requirements
