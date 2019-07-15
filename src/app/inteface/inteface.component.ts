@@ -9,10 +9,10 @@ import { Repos } from '../repositories';
   templateUrl: './inteface.component.html',
   styleUrls: ['./inteface.component.css']
 })
-// export class InterfaceComponent implements OnInit {
-//   username:string;
-//   profile:User;
-//   repos:Repos
+export class InterfaceComponent implements OnInit {
+  username:string;
+  profile:User;
+  repos:Repos
   constructor(private profileService: GitServe) {
 
   }
