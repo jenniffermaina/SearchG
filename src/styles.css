@@ -1,1 +1,9 @@
-/* You can add global styles to this file, and also import other style files */
+@import url(https://fonts.googleapis.com/css?family=Kumar+One+Outline&display=swap);
+
+.search{
+    background-image: url(./assets/repo2.jpg);
+    background-position: center;
+    background-position: cover;
+    padding: 300px;
+
+}
