@@ -15,6 +15,7 @@ export class InterfaceComponent implements OnInit {
   repos:Repos
   constructor(private profileService: GitServe) {
 
+  
   }
 
   findProfile() {
