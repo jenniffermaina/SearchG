@@ -11,11 +11,19 @@ The user can also click on a link to view the profile oh github<br>
 
 ## Setup/Installation Requirements
 * Open this link on a supported web broser to interract with the application:
-    https://https://sijenn.github.io/SearchG/
+
+    https://sijenn.github.io/SearchG/
 ### To view the source code :
 * install Atom/Visual studio code
 * git init
 * git clone
+
+   https://sijenn.github.io/SearchG/
+### To view the source code :
+* install Atom/Visual studio code
+* git init
+* git clone 
+
 *  Open the folder where the cloned repository is saved 
 * run the command _ngserve_  on your terminal to open the program 
 
