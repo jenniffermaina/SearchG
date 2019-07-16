@@ -30,6 +30,7 @@ export class InterfaceComponent implements OnInit {
   	})
   }
 
+  
   ngOnInit() {
     interface ApiResponse{
     name: string;
