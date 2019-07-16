@@ -1,9 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Kumar+One+Outline&display=swap);
 
-.search{
+body{
     background-image: url(./assets/repo2.jpg);
-    background-position: center;
-    background-position: cover;
-    padding: 300px;
+}
 
+.header{
+    color: white;
+    text-align: center;
 }

@@ -1,53 +1,85 @@
-<div class="container search">
-  <br>
-  <div class="Header">
-    <h3>search Github</h3>
-  </div>
-  <form action="" class="search-form">
-    <div class="form-group">
-      <input type="text" class="form-control" placeholder="Search Github" [(ngModel)]="username" name="username"
-        (keyup)="findProfile()">
+<html>
+
+<body>
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="#"><img class="img-fluid mr-3 header" src="assets/git-1-2.png" alt="" class="header">GitSearch</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link header" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"></a>
+          </li>
+
+
+        </ul>
+      </div>
+    </nav>
+
+
+    <br>
+    <div class="header">
+      <h3>search Github</h3>
     </div>
-  </form>
-  <hr>
-  <div *ngIf="profile">
-    <div class="row">
-      <div class="col-md-12 ">
-        <h6> Profile Name :{{profile.name}} </h6>
-        <h5>Username : {{profile.login}}</h5>
-        <a href="{{profile.html_url}}" target="_blank" class="btn btn-outline-success btn-sm">View profile on github</a>
-        <hr>
-        <img src="{{profile.avatar_url}}" class="img-circle img-responsive" alt="Profile Image"><br><br>
+    <form action="" class="search-form">
+      <div class="form-group">
+        <input type="text" class="form-control" placeholder="Search Github" [(ngModel)]="username" name="username"
+          (keyup)="findProfile()">
+      </div>
+    </form>
+    <hr>
+    <div *ngIf="profile">
+      <div class="row">
+        <div class="col-md-12 ">
+          <h6> Profile Name :{{profile.name}} </h6>
+          <h5>Username : {{profile.login}}</h5>
+          <a href="{{profile.html_url}}" target="_blank" class="btn btn-outline-success btn-sm">View profile on
+            github</a>
+          <hr>
+          <img src="{{profile.avatar_url}}" class="img-circle img-responsive" alt="Profile Image"><br><br>
 
 
 
 
-        <!-- <div class=" padd"> -->
-        <div class="card">
-          <div class="card-title">
-            <p> <span class="label label-success">Number Of Repositories :{{profile.public_repos}}</span></p>
+          <!-- <div class=" padd"> -->
+          <div class="card">
+            <div class="card-title">
+              <p> <span class="label label-success">Number Of Repositories :{{profile.public_repos}}</span></p>
 
-            <h3 class="">Repositories</h3>
+              <h3 class="">Repositories</h3>
 
-          </div>
-          <div class="card-body">
-            <div class="" *ngFor="let repo of repos">
-              <ul>
-                <li>
+            </div>
+            <div class="card-body">
+              <div class="" *ngFor="let repo of repos">
+                <ul>
+                  <li>
 
-                  <h4>{{repo.name }}<br></h4>
-                  <p>
-                    {{repo.description}}
-                    <a href="{{repo.html_url}}" target="_blank" class="btn btn-sm btn-outline-info pull-right">View
-                      this
-                      project on github</a>
-                  </p>
-                </li>
-              </ul>
+                    <h4>{{repo.name }}<br></h4>
+                    <p>
+                      {{repo.description}}
+                      <a href="{{repo.html_url}}" target="_blank" class="btn btn-sm btn-outline-info pull-right">View
+                        this
+                        project on github</a>
+                    </p>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
+          <!-- </div> -->
         </div>
-        <!-- </div> -->
       </div>
     </div>
+
   </div>
+
+</body>
+
+</html>
