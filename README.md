@@ -6,16 +6,24 @@ This is an application which allows a user to search for a github profilre and d
 ## Behaviour Driven Development
 When the user enters the user name in the search bar, the program displays the searched github information. In the repository's part there is a link which when clicked it opens the repository on github.<br>
 The user can also click on a link to view the profile oh github<br>
-![screenshot](./src/assets/screenshot.png)
+
 
 
 ## Setup/Installation Requirements
 * Open this link on a supported web broser to interract with the application:
+
+    https://sijenn.github.io/SearchG/
+### To view the source code :
+* install Atom/Visual studio code
+* git init
+* git clone
+
    https://sijenn.github.io/SearchG/
 ### To view the source code :
 * install Atom/Visual studio code
 * git init
 * git clone 
+
 *  Open the folder where the cloned repository is saved 
 * run the command _ngserve_  on your terminal to open the program 
 
