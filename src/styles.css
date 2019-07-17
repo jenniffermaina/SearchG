@@ -1,10 +1,16 @@
 @import url(https://fonts.googleapis.com/css?family=Kumar+One+Outline&display=swap);
 
 body{
-    background-image: url(./assets/repo2.jpg);
+     background-image: url(./assets/repo2.jpg); 
 }
 
-.header{
+.hed{
     color: white;
     text-align: center;
+}
+.prof{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
 }
