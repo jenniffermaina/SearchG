@@ -54,7 +54,7 @@
 
           <div class="card">
             <!-- <div class="card-title"> -->
-              <p> <span class="label label-success ">Number Of Repositories :{{profile.public_repos}}</span></p>
+              <p> <span>Number Of Repositories :{{profile.public_repos}}</span></p>
 
               <h3>Repositories</h3>
 
@@ -62,13 +62,11 @@
           </div>
 
           <hr>
-          <!-- <div class="card"> -->
-          <!-- <div class="card-body"> -->
+       
           <div *ngFor="let repo of repos">
             <div class="card">
               <ul>
                 <li>
-
                   <h4>{{repo.name }}</h4>
                   <br>
                   <p>
