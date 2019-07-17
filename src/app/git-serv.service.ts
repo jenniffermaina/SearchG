@@ -16,9 +16,9 @@ export class GitServe {
   private clientid = '1560ae83c3ec6ed02792';
   private clientsecret = 'f6eeacbb082b686c6103070652c2db1ae2ac7797';
   constructor(private http: Http) {
-    // tslint:disable-next-line: quotemark
+   // tslint:disable-next-line: quotemark
     // console.log("Service is now ready!");
-    this.username = 'brayomumo';
+    this.username = 'Sijenn';
   }
   getProfileInfo(){
   	return this.http.get("https://api.github.com/users/" + this.username + "?client_id=" + this.clientid + "&client_secret=" + this.clientsecret)
@@ -28,7 +28,7 @@ export class GitServe {
   getProfileRepos(){
   	// tslint:disable-next-line: indent
   	return this.http.get("https://api.github.com/users/" + this.username + "/repos?client_id=" + this.clientid + "&client_secret=" + this.clientsecret)
-  	.map(res => res.json());
+    .map(res => res.json());
   }
 
   updateProfile(username:string){
